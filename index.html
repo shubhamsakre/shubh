@@ -15,8 +15,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.min.js"></script>>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
 </head>
 
 <body>
@@ -43,7 +41,7 @@
   </header>
 
 
-  <section class="Home-section" style="background-image:url(assets/images/about.jpg);">
+  <section class="Home-section">
     <div class="container">
       <div class="Home-section-div" data-aos="fade-up" data-aos-duration="1000">
         <div class="Home-section-heading">
@@ -144,38 +142,46 @@
       </div>
     </div>
   </section>
-  <section class="counter">
+  <section class="countern">
     <div class="container">
       <div class="counter-div" data-aos="fade-up" data-aos-duration="1000">
         <div class="counter-content">
           <div class="counter-icon">
             <i class="far fa-smile"></i>
           </div>
-          <div class="counter-number">4646</div>
+          <div class="counter-number">
+            <h2 class="counter">4646</h2>
           <p>Happy Clients</p>
         </div>
+      </div>
         <div class="counter-content">
           <div class="counter-icon">
             <i class="fas fa-print"></i>
           </div>
-          <div class="counter-number">100+</div>
+          <div  class="counter-number">
+            <h2 class="counter">100+</h2>
           <p>Projects</p>
         </div>
+      </div>
         <div class="counter-content">
           <div class="counter-icon">
             <i class="fas fa-user"></i>
           </div>
-          <div class="counter-number">24 x 7</div>
+          <div class="counter-number">
+            <h2 class="counter">24 x 7</h2>
           <p> Hours of support</p>
         </div>
+      </div>
         <div class="counter-content">
           <div class="counter-icon">
             <i class="fas fa-mask"></i>
           </div>
-          <div class="counter-number">15</div>
+          <div class="counter-number">
+            <h2 class="counter">15</h2>
           <p>Hard Workers</p>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <br>
@@ -571,10 +577,10 @@
 
           <div class="col1" data-aos="fade-up" data-aos-duration="1000">
             <div class="col1-content">
-              <a href="#">Do I Need to Work Out Every Day?</a>
+              <a href="#" target="_blank">Do I Need to Work Out Every Day? </a>
             </div>
             <div class="col1-icon" data-aos="fade-up" data-aos-duration="1000">
-              <i class="fas fa-chevron-down"></i>
+              <button class="morebtn"><i class="fas fa-chevron-down"></i></button>
             </div>
           </div>
           <div class="col1" data-aos="fade-up" data-aos-duration="1000">
@@ -582,7 +588,7 @@
               <a href="#">How Long Should I Work Out For?</a>
             </div>
             <div class="col1-icon">
-              <i class="fas fa-chevron-down"></i>
+              <button class="morebtn"><i class="fas fa-chevron-down"></i></button>
             </div>
           </div>
           <div class="col1" data-aos="fade-up" data-aos-duration="1000">
@@ -590,7 +596,7 @@
               <a href="#">How Can I Increase Lean Muscle Mass?</a>
             </div>
             <div class="col1-icon">
-              <i class="fas fa-chevron-down"></i>
+              <button class="morebtn"><i class="fas fa-chevron-down"></i></button>
             </div>
           </div>
           <div class="col1" data-aos="fade-up" data-aos-duration="1000">
@@ -598,7 +604,7 @@
               <a href="#">How Much Weight Should I Use When Strength Training?</a>
             </div>
             <div class="col1-icon">
-              <i class="fas fa-chevron-down"></i>
+              <button class="morebtn"><i class="fas fa-chevron-down"></i></button>
             </div>
           </div>
           <div class="col1" data-aos="fade-up" data-aos-duration="1000">
@@ -606,7 +612,7 @@
               <a href="#">What Training Should I Be Doing to Lose Weight?</a>
             </div>
             <div class="col1-icon">
-              <i class="fas fa-chevron-down"></i>
+              <button class="morebtn"><i class="fas fa-chevron-down"></i></button>
             </div>
           </div>
           <div class="col1" data-aos="fade-up" data-aos-duration="1000">
@@ -614,7 +620,7 @@
               <a href="#">When Should I Stretch & How Often?</a>
             </div>
             <div class="col1-icon">
-              <i class="fas fa-chevron-down"></i>
+              <button class="morebtn"><i class="fas fa-chevron-down"></i></button>
             </div>
           </div>
 
@@ -632,9 +638,9 @@
           <p>Meet the team of <span> Experts ,</span> <span>Nutritionist , Personal Coach</span> </p> 
         </div>
         <div class="team-div" data-aos="zoom-in" data-aos-duration="1000">
-          <div class="teambox1">
+          <div class="teambox">
             <div class="team-image">
-              <img src="assets/images/team-1.jpg" alt="Shubhamsakre">
+              <img src="assets/images/newi.jpg" alt="">
               <div class="social-icon">
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-facebook-square"></i>
@@ -727,15 +733,15 @@
             </div>
           </div>
           <div class="right-side">
-            <form class="contact-form" action="index.html" method="post">
+            <form class="contact-form" action="contact.php" method="post">
               <div class="first-row">
-                <input type="text" name="" value="" placeholder="Your Name">
-                <input type="text" name="" value="" placeholder="Your Email">
+                <input type="text" name="name" value="" placeholder="Your Name">
+                <input type="text" name="email" value="" placeholder="Your Email">
               </div>
-              <input type="text" name="" value="" placeholder="Subject">
-              <textarea class="Message" name="name" rows="7" cols="80" placeholder="Message"></textarea>
+              <input type="text" name="Subject" value="" placeholder="Subject">
+              <textarea class="Message" name="Messages" rows="7" cols="80" placeholder="Message"></textarea>
 
-              <button class="Message-btn" type="button" name="button">Send Message</button>
+              <button class="Message-btn" id="msg-btn" type="button" name="button" >Send Message</button>
             </form>
           </div>
         </div>
@@ -750,7 +756,7 @@
             <p>India’s Top research based - health, fitness & Lifestyle Website. Let’s correct the human stupidities in a more sensible and rational way.</p>
             <div class="footerbox-1-detail">
               <p><span>Phone:</span> +1 5589 55488 55</p>
-              <p><span>Email:</span> info@example.com</p>
+              <p><span>Email:</span> Shubhamsakre@gmail.com</p>
             </div>
 
           </div>
@@ -782,7 +788,7 @@
           
           <div class="footerbox-3">
             <h2>Join Our Newsletter</h2>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Subscribe to our Newsletter to get regular updates on discounts and offers</p>
             <div class="Subscribe-btn">
               <input type="text" name="" value="">
               <button type="button" name="button">Subscribe</button>
@@ -811,23 +817,52 @@
       </div>
 
     </footer>
-  
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <script type="text/javascript">
-      $(".counter-number").counterUp({
+    <script>
+      var button = document.getElementById("msg-btn");
+      button.addEventListener("click",function(){
+        alert("thank you you will be messaged soon");
+      });
+      </script>
+
+    <script>
+      jQuery(document).ready(function($){
+      $(".counter").counterUp({
         delay: 5,
         time: 1000
       });
+          });
     </script>
+
     <script>
       AOS.init({
         once: "true"
       });
     </script>
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
 </body>
 
 </html>
